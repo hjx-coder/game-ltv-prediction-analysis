@@ -1,3 +1,61 @@
+# Game User LTV Prediction and User Acquisition Value Analysis
+
+## Project Background
+
+This repository is being transformed from a research-style TransForeCaster deep learning project into a practical portfolio project for game user LTV prediction and user acquisition value analysis.
+
+In game operations and performance marketing, teams need to understand whether newly acquired users are likely to generate enough future revenue to cover acquisition cost. A useful LTV project should connect user behavior, payment signals, model prediction, and marketing decisions instead of only focusing on model complexity.
+
+## Project Goal
+
+The goal of this project is to build an end-to-end, entry-level-friendly machine learning workflow that answers the following business questions:
+
+- Which early user behaviors are related to higher D7 or D30 LTV?
+- Can we predict user future value from early lifecycle features?
+- Which acquisition channels, countries, devices, or user segments have better predicted value?
+- How can predicted LTV be combined with CPI, ROI, and ROAS to support budget decisions?
+
+This project will prioritize clear business logic, feature engineering, model evaluation, and marketing analysis over reproducing a complex deep learning architecture.
+
+## Tech Stack
+
+Planned technical stack:
+
+- Python
+- pandas and numpy for data processing
+- matplotlib and seaborn for visualization
+- scikit-learn for baseline modeling and evaluation
+- Optional: XGBoost or LightGBM for stronger tabular prediction
+- Jupyter Notebook for exploratory analysis
+
+The original TensorFlow implementation will be kept as reference, but it is not the main direction of the transformed project.
+
+## Project Workflow Overview
+
+Planned workflow:
+
+1. Generate or prepare game user sample data.
+2. Perform exploratory data analysis on user behavior, payment, retention, and acquisition channels.
+3. Build early lifecycle features for LTV prediction.
+4. Train baseline and machine learning models for D7/D30 LTV.
+5. Evaluate model performance with MAE, RMSE, R2, and error analysis.
+6. Combine predicted LTV with acquisition cost to calculate ROI and ROAS.
+7. Summarize channel value, user segment value, and marketing recommendations.
+
+## Current Stage
+
+Current stage: **Stage 1 - Project Repositioning and Directory Planning**
+
+At this stage, the repository only defines the new project direction, business goals, capability mapping, and planned directory structure. No model training is performed, and the original core files are not removed.
+
+For the detailed transformation plan, see [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
+
+---
+
+# Original Reference: TransForeCaster
+
+The content below is kept from the original project as technical reference. It describes the source deep learning architecture and will not be the main implementation path for the transformed LTV portfolio project.
+
 # TransForeCaster: In-and-Cross Categorized Feature Integration in User Representation Learning
 
 ## Abstract
